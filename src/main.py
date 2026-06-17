@@ -7,7 +7,7 @@ f2 = PWM(Pin(2), freq=5000, duty_u16=32768/2)
 clkiic = I2C(0)
 
 disiic = I2C(1, sdaPin=Pin(14), sclPin=Pin(15))
-dis = SSD1306(128, 64, disiic)
+dis = ssd1306.SSD1306_I2C(128, 64, disiic)
 dis.poweron()
 
 buf = bytearray(7)
