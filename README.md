@@ -8,3 +8,6 @@
 ![wd](Assets/wird.png)
 
 ## Program
+1. Turn on buzz tone when power is supplied to vsys
+2. get time from rtc
+3. turn off buzzes after 5 minutes
