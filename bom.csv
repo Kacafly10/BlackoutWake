@@ -1,8 +1,10 @@
-Pi pico,1
-rtc module,1
-ac - dc conv,1
-Oled,1
-buzzer,2
-box,1
-lid,1
-Cable + plug,1
+Name,Qty,,Price/One,Price/Total,Notes
+Pi pico,1,Pcs,$2.02,$2.02,Aliexpress
+rtc module,1,Pcs,$2.07,$2.07,Aliexpress
+ac - dc converter,1,Pcs,$0.86,$0.86,Aliexpress
+Oled Module .96 inch,1,Pcs,$1.15,$1.15,Aliexpress
+buzzer,1,Lot@5Pcs,$0.77,$0.77,Aliexpress
+box,1,Pcs,$3.95,$3.95,jlc 3DP
+lid,1,Pcs,$1.55,$1.55,jlc 3DP
+Cable + plug,1,Set,$0.96,$0.96,Aliexpress
+,,,,$13.33,
