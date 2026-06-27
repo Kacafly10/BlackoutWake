@@ -12,6 +12,9 @@
 2. get time from rtc
 3. turn off buzzes after 5 minutes
 
+## Bill Of Materials
+    [General](/bom.csv)
+
 ## Credits
 RPi
     Pi pico 3D File
