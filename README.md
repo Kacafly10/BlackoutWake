@@ -11,6 +11,7 @@ BlackoutWake was Ideated in a saga of blackouts cutting internet, charging and e
 ![wd](Assets/wird.png)
 
 ## 3d
+
 ![Mockup](/Assets/Mockup.jpg)
 `Mockup`
 
