@@ -4,23 +4,37 @@
 >### I'm so digital ... blackout? time to zzzzzz. when it's on i go again.
 Blackouts are a big nuisance to us digital people. When everything shuts down, our best bet would be to catch up to our sleeping backlog. _"What about if we oversleep?"_ well, BlackoutWake helps by informing you when the power turns on.
 
-BlackoutWake was Ideated in a saga of blackouts cutting internet, charging and every other digital Item. I wanted to sleep, but still get all my fallout projects done. It uses a **AC to DC converter** to turn on a **Raspberry Pi pico** when electricity flows from the plug. The pico drives 2 **Buzzers** and displays through **oled** time when you woke up from queries to an **RTC**. Let's sleep! Well, me, at very least.
+BlackoutWake was Ideated in a saga of blackouts cutting internet, charging and every other digital Item. I wanted to sleep, but still get all my fallout projects done. It uses a **AC to DC converter** to turn on a **Raspberry Pi pico** when electricity flows from the plug. The pico drives 2 **Buzzers** and displays through **oled** time when you woke up--or more accurately ~current time--from queries to an **RTC**. Let's sleep! Well, me, at very least.
 
 ## Wire
 
 ![wd](Assets/wird.png)
 
+## 3d
+
+![Mockup](/Assets/Mockup.jpg)
+`Mockup`
+
+![Box + Lid](/Assets/boxlid.png)
+`Box & Lid`
+
+![Opened](/Assets/Open.png)
+`Open View`
+
+
+[onshape](https://cad.onshape.com/documents/0ff01360ea1e6058d91f01e5/w/d01b925eefa85f8894e07011/e/78fdfa6156e56ede7d53773d?renderMode=0&uiState=6a405803cbb0f7be3ab0e881)
+
 ## Assembly
 1. Solder or join all electronic parts (see Wire for connections)
-2. glue on ac-dc to edge of box
-3. screw in rtc and pico
-4. clip in oled to lid
-5. slot and optionally glue each buzzer
+2. Adhese ac-dc to edge of box
+3. Screw in rtc and pico
+4. Clip in oled to lid
+8. Slot and optionally adhese each buzzer
 
 ## Program
 1. Turn on buzz tone when power is supplied to vsys
-2. get time from rtc
-3. turn off buzzes after 5 minutes
+2. Get time from RTC
+3. Turn off buzzes after 5 minutes
 
 ## Bill Of Materials
 | Name                 | Qty |          | Price/One | Price/Total | Notes                                                 |
