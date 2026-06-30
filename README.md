@@ -8,7 +8,7 @@ BlackoutWake was Ideated in a saga of blackouts cutting internet, charging and e
 
 ## Wire
 
-![wd](Assets/wird.png)
+![wd](Assets/sch.png)
 
 ## 3d
 
